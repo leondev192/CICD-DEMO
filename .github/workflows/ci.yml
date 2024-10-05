@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16' # Chọn phiên bản Node.js mà bạn muốn
+          node-version: '20' # Chọn phiên bản Node.js mà bạn muốn
 
       - name: Install dependencies
         run: npm install
